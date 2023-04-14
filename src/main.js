@@ -9,3 +9,4 @@ const app = createApp(App)
 globallInstall(app)
 app.use(router)
 app.mount("#app")
+document.domain = '10.11.41.94'

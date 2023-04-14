@@ -28,6 +28,11 @@ const Router = createRouter({
       name: "RadioTest",
       component: () => import('@/views/RadioTest/index.vue'),
     },
+    {
+      path: "/LinkTableTest",
+      name: "LinkTableTest",
+      component: () => import('@/views/LinkTableTest/index.vue'),
+    },
   ],
 })
 
